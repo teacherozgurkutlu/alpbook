@@ -1,0 +1,27 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ben bir denemeyim",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "imkb",
+    "tasdelen"
+  ],
+  "author": "Ozgur Kutlu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    
+    
+    "underscore": "^1.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
