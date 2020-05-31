@@ -18,19 +18,8 @@ app.use(express.static('public'));
 
 
 
-app.get("/a",function(req,res){
-    res.send("get işlemi başarılı");
-    res.end();
-   
-
-})
 
 
-app.post("/gonder",urlencodedParser, function (req, res)  {
-    //res.send('Wiki home page');
-    console.log(req.body.fyas);
-    res.end();
-   
-  })
+
 
  
