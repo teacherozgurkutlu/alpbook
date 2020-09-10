@@ -9,7 +9,8 @@ const passport = require('passport');
 require('dotenv').config();     //process.env.API_KEY  ile ulaşılabilir
 require('./config/passport')(passport);
 const app=express();
-const db=require('./config/keys').MongoURI;
+//const db=require('./config/keys').MongoURI; heroku env ile değiştirildi
+const db=process.env.MangoURI;
 mongoose.connect(db,{useNewUrlParser:true})
 .then(()=>console.log('MongoDB Baglandı'))
 .catch(err=>console.log(err));
